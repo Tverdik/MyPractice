@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(#5E6FF0, #5E4DFF);
+}
+
+.todo-input{
+    border: black 1px solid;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.add{
+    border: black 1px solid;
+    border-radius: 5px;
+    background: none;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.todo-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    border: black 2px solid;
+    border-radius: 5px;
+    margin: 1rem 2rem;
+    background: white;
+}
+
+.todo-div li{
+    flex: 1;
+    margin: 0.2rem;
+    font-size: 20px;
+    border: none;
+    list-style: none;
+}
+
+.todo-div button{
+    border: none;
+    padding: 1.2rem;
+}
+
+.complete-button{
+    background-color: #55C1F0;
+}
+
+.delete-button{
+    background-color: #F03437;
+}
+
+.completed{
+    background: greenyellow;
+    opacity: 0.5;
+}
