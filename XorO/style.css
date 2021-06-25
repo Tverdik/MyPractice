@@ -10,16 +10,12 @@ body{
 
 .main{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
+    flex-direction: column;
+    text-align: center;
 }
 
 .string{
     display: flex;
-
 }
 
 .item{
